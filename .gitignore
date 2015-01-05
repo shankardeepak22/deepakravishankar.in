@@ -14,3 +14,5 @@ hs_err_pid*
 # eclipse project related documents
 .classpath
 .project
+.settings/**
+.settings
