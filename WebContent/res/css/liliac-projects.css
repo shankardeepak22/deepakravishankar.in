@@ -1,0 +1,81 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 90pt;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.pro-jumbo {
+	background: rgb(153, 50, 204);
+	background-attachment: fixed;
+	width: 100%;
+}
+
+#menu a {
+	color: white;
+}
+
+#menu a:hover {
+	color: white;
+	background: rgba(1, 1, 1, 0.4);
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	padding: inherit;
+	background: rgba(153, 50, 204,0.3);
+	background-attachment: fixed;
+	width: 100%;
+}
+
+#body {
+	padding: 10px;
+	padding-bottom: 60px; /* Height of the footer */
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+	padding-bottom: 10px;
+}
+
+.liliac-p-bg {
+	/* background: rgb(153, 51, 255); */
+	background: #6f5499;
+	background-attachment: fixed;
+}
+
+.liliac-nav {
+	margin-bottom: inherit;
+	background-color: rgba(1, 1, 1, 0.3);
+	border: 0em;
+	font-family: 'Poiret One', cursive;
+	font-size: medium;
+	color: white;
+	text-align: center;
+}
+
+.liliac-footer {
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 50px;
+}

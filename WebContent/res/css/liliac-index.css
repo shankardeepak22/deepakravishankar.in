@@ -1,0 +1,65 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color:
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 90pt;
+	text-align: center;
+}
+
+#menu a {
+	color: white;
+}
+
+#menu a:hover {
+	color: white;
+	background: rgba(1, 1, 1, 0.4);
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	padding: inherit;
+}
+
+#body {
+	padding: 10px;
+	padding-bottom: 60px; /* Height of the footer */
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+	padding-bottom: 10px;
+}
+
+.liliac-p-bg {
+	background: black;
+	background-attachment: fixed;
+}
+
+.liliac-nav {
+	margin-bottom: inherit;
+	background-color: rgba(62, 62, 206, 0.21);
+	border: 0em;
+	font-family: 'Poiret One', cursive;
+	font-size: medium;
+	color: white;
+	text-align: center;
+}
+
+.liliac-footer {
+	background-color: rgba(62, 62, 206, 0.21);
+	width: 100%;
+	height: 50px;
+}

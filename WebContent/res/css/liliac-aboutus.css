@@ -1,0 +1,68 @@
+.pro-jumbo {
+	background: rgb(176, 23, 31);
+	background-attachment: fixed;
+	width: 100%;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	padding: inherit;
+}
+
+#body {
+	padding: 10px;
+	padding-bottom: 60px; /* Height of the footer */
+}
+
+#menu {
+	padding-top: 0px;
+	background: rgba(0, 0, 0, 0.3);
+	background-color: rgb(176, 23, 31);
+	color: white;
+}
+
+#inner-menu a {
+	color: white;
+}
+
+#inner-menu a:hover {
+	color: white;
+	background: rgba(1, 1, 1, 0.4);
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+	padding-bottom: 10px;
+}
+
+#inner-menu a:hover {
+	color: black;
+	background: rgba(1, 1, 1, 0.4);
+}
+
+img {
+	color: background;
+}
+
+.liliac-nav {
+	margin-bottom: inherit;
+	background-color: rgba(1, 1, 1, 0.3);
+	border: 0em;
+	font-family: 'Poiret One', cursive;
+	font-size: medium;
+	color: white;
+	text-align: center;
+}
+
+.liliac-footer {
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 50px;
+}
